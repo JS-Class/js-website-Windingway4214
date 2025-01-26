@@ -1,0 +1,20 @@
+h1 {
+    color:gold;
+    text-align: center;
+    font-family:'BankGothic', sans-serif;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color:gold;
+    font-family: 'BankGothic', sans-serif;
+}
+
+body {
+    background-color: rgb(85, 84, 84);
+    color:lightblue;
+    font-family: 'OCR-A BT', sans-serif;
+}
+
