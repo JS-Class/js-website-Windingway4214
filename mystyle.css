@@ -1,0 +1,114 @@
+header {
+    color:gold;
+    text-align: center;
+    font-family:'BankGothic', sans-serif;
+    line-height: 2em;
+    font-style: italic;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color:gold;
+    font-family: 'BankGothic', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+p em {
+    color:rgb(255, 131, 131)
+}
+
+img {
+    vertical-align: middle;
+}
+
+
+nav {
+    background-color: black;
+    line-height: 2em;
+    display: block;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+nav a:link {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a:active {
+    text-decoration: underline;
+    color: gold;
+}
+
+
+ul {
+    list-style-type: circle;
+    list-style-position: inside;
+}  
+
+body {
+    background-color: rgb(80, 109, 240);
+    color:gold;
+    font-family: "OCR-A BT", sans-serif;
+    font-size: 1.125em;
+}
+
+main {
+    color: rgb(204, 213, 255);
+}
+
+footer {
+    font-size: 0.5em;
+}
+
+.headings {
+    font-style: italic;
+}
+
+.names {
+    color: lightcoral;
+    font-style: italic;
+}
+
+table {
+    border: solid 2px rgb(80, 109, 240);
+    border-collapse: collapse;
+    background-color: black;
+}
+
+tr, td, th {
+    border: solid 2px rgb(80, 109, 240);
+    padding: 5px;
+    width: 200px;
+    text-align: center;
+}
+
+tr:hover {
+    color: white;
+    background-color: black;
+}
+
+caption {
+    caption-side: top;
+    font-weight: bold;
+    margin: 5px;
+    background-color: black;
+    padding: 5px;
+}
+
