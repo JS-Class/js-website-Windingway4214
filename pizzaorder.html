@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Order</title>
+    <link href="mystyle.css" rel="stylesheet"/>
+</head>
+<body>
+    <h3 id="pizza_order_header">Pizza Order</h3>
+    <form id="pizza_order" action="" method="post">
+        <p>Customer Name: <input type="text" name="customer_name" id="pizza_customer_name"></p><br>
+        <p>Delivery Address: <input type = "text" name="delivery_address" id="pizza_delivery_address"></p><br>
+        <p>Phone Number: <input type = "text" name="phone_number" id="pizza_phone_number"></p><br>
+
+        <p id="pizza_size_label">Size: </p>
+        <fieldset id="pizza_size">
+            <input type="radio" name="large" id="size_large">
+            <label for="large">Large</label>
+            <input type="radio" name="medium" id="size_medium">
+            <label for="medium">Medium</label>
+            <input type="radio" name="small" id="size_small">
+            <label for="small">Small</label>
+        </fieldset><br>
+
+        <p id="pizza_toppings_label">Toppings:</p>
+        <fieldset id="pizza_toppings">
+            <input type="checkbox" name="pepperoni" id="toppings_pepperoni">
+            <label for="pepperoni">Pepperoni</label>
+            <input type="checkbox" name="sausage" id="toppings_sausage">
+            <label for="sausage">Sausage</label>
+            <input type="checkbox" name="pineapple" id="toppings_pineapple">
+            <label for="pineapple">Pineapple</label>
+        </fieldset><br>
+
+        Note to Cook: <input type = "text" name="note_to_cook" id="note_to_cook" value=""><br><br><br>
+        <input id="order" type="submit" value="Place Order"></p></fieldset>
+    </form>
+</body>
+</html>
