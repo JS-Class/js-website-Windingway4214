@@ -112,3 +112,51 @@ caption {
     padding: 5px;
 }
 
+#pizza_order_header {
+    font-weight: bold;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    font-size: 2.25em;
+}
+
+#pizza_order {
+    margin: 5px;
+    padding: 5px;
+}
+
+#pizza_customer_name {
+    font-size: 1.15em;
+}
+
+#pizza_delivery_address {
+    font-size: 1.15em;
+}
+
+#pizza_phone_number {
+    font-size: 1.15em;
+}
+
+#pizza_size_label {
+    font-size: 1.25em;
+}
+
+#pizza_size {
+    font-size: 1.15em;
+}
+
+#pizza_toppings_label {
+    font-size: 1.25em;
+}
+
+#pizza_toppings {
+    font-size: 1.15em;
+}
+
+#note_to_cook {
+    font-size: 1.15em;
+}
+
+#order {
+    font-size: 1em;
+}
