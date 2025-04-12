@@ -9,6 +9,10 @@
         <meta name="keywords" content="Ohio, Indiana, Windingway4214, about, family, hobbies">
         <title>Windingway4214's Web Page</title>
         <link rel="stylesheet" href="mystyle.css">
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/smoothness/jquery-ui.css">
+        <link rel="stylesheet" href="accordionstyle.css">
+        <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
     </head>
 
     <!--The body contains the displayed content our web page-->
@@ -19,26 +23,29 @@
             <h4>All about the legend</h4>
         </header>
 
-        <nav>
-            <ul>
-                <li><a href="index.html" title="Home Page">Home</a></li>
-                <li><a href="tablepage.html" title="Second Page">CCP Courses</a></li>
-                <li>Future Link</li>
-            </ul>
+        <nav id="accordion">
+            <h3>Navigation</h3>
+            <div>
+                <ul>
+                    <li><a href="index.html" title="Home Page">Home</a></li>
+                    <li><a href="tablepage.html" title="Second Page">CCP Courses</a></li>
+                    <li><a href="#" title="Future Stuff">Future Link</a></li>
+                </ul>
+            </div>
         </nav>
 
 
         <main>
             <h3><span class="headings">About</span></h3>
 
-            <p>I am a 20 year old from <em>Ohio</em> and I still reside there.
+            <p class="paragraphs">I am a 20 year old from <em>Ohio</em> and I still reside there.
                 <br>I had also lived in Indiana for about <strong>three</strong> years when I
                  was younger.
                 <br>I am a <span id="importantStuff">full-time college student</span> studying cybersecurity/networking and computer programming.
                 I also work part time as an IT intern/helpdesk technician.<br><br>(I am the mop head in the picture below)</p>
         
 
-            <img src="band_pic.JPG" alt="Picture of Windingway4214 with band." height="450" width="300">
+            <img src="images/band_pic.JPG" id="band_image" alt="Picture of Windingway4214 with band." height="450" width="300">
 
             <h3><span class="headings">Family</span></h3>
             <ul>
@@ -51,13 +58,17 @@
             </ul>
 
             <h3><span class="headings">Hobbies</span></h3>
-            <p>When I am not working or in class, I enjoy playing video games, playing music,
+            <img src="images/controller_image.png" class="floating_image" alt="Picture of a controller." width="100" height="70">
+            <p class="paragraphs">When I am not working or in class, I enjoy playing video games, playing music,
                 working out, hanging out with my girlfriend, watching youtube and taking pictures/videos with my camera.
-            </p>
+            </p> <br>
         </main>
 
 
         <footer>
-            <h6>Copyright &copy; 2025 Windingway4214
+            <h6 id="copyright">Copyright &copy; 2025 Windingway4214
         </footer>
+
+        <script src="accordion.js"></script>
+    </body>
 </html>
