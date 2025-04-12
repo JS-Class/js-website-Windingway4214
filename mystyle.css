@@ -1,0 +1,184 @@
+header {
+    color:gold;
+    text-align: center;
+    font-family:'BankGothic', sans-serif;
+    line-height: 2em;
+    font-style: italic;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color:gold;
+    font-family: 'BankGothic', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+p em {
+    color:rgb(255, 131, 131)
+}
+
+img {
+    vertical-align: middle;
+}
+
+
+nav {
+    background-color: black;
+    line-height: 2em;
+    display: block;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+nav a:link {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a:active {
+    text-decoration: underline;
+    color: gold;
+}
+
+
+ul {
+    list-style-type: circle;
+    list-style-position: inside;
+}  
+
+body {
+    background-image: url(images/blue_background.jpg);
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-color: rgb(80, 109, 240);
+    color:gold;
+    font-family: "OCR-A BT", sans-serif;
+    font-size: 1.125em;
+}
+
+main {
+    color: rgb(230, 234, 253);
+}
+
+footer {
+    font-size: 0.5em;
+}
+
+.headings {
+    font-style: italic;
+    margin: 10px;
+}
+
+.paragraphs {
+    margin: 10px;
+}
+
+.names {
+    color: rgb(248, 150, 150);
+    font-style: italic;
+}
+
+table {
+    border: solid 2px rgb(80, 109, 240);
+    border-collapse: collapse;
+    background-color: black;
+}
+
+tr, td, th {
+    border: solid 2px rgb(80, 109, 240);
+    padding: 5px;
+    width: 200px;
+    text-align: center;
+}
+
+tr:hover {
+    color: white;
+    background-color: black;
+}
+
+caption {
+    caption-side: top;
+    font-weight: bold;
+    margin: 5px;
+    background-color: black;
+    padding: 5px;
+}
+
+#pizza_order_header {
+    font-weight: bold;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    font-size: 2.25em;
+}
+
+#pizza_order {
+    margin: 5px;
+    padding: 5px;
+}
+
+#pizza_customer_name {
+    font-size: 1.15em;
+}
+
+#pizza_delivery_address {
+    font-size: 1.15em;
+}
+
+#pizza_phone_number {
+    font-size: 1.15em;
+}
+
+#pizza_size_label {
+    font-size: 1.25em;
+}
+
+#pizza_size {
+    font-size: 1.15em;
+}
+
+#pizza_toppings_label {
+    font-size: 1.25em;
+}
+
+#pizza_toppings {
+    font-size: 1.15em;
+}
+
+#note_to_cook {
+    font-size: 1.15em;
+}
+
+#order {
+    font-size: 1em;
+}
+
+.floating_image {
+    float: left;
+    margin: 20px;
+}
+
+#band_image {
+    margin: 10px;
+}
+
+#copyright {
+    margin: 40px 10px 0px 10px;
+}
+

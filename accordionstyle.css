@@ -1,0 +1,32 @@
+#accordion {
+    border: 1px solid black;
+    width: 190px;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+#accordion h3 {
+    background-color: black;
+    color: black;
+    padding: 10px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+#accordion div {
+    background-color: #000000;
+    padding: 0px;
+}
+
+#accordion a {
+    color: gold;
+    font-size: .95em;
+    text-align: left;
+    text-decoration: none;
+    display: block;
+}
+
+#accordion a:hover {
+    text-decoration: underline;
+}
